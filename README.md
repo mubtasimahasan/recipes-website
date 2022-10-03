@@ -1,2 +1,2 @@
 # recipes-website
-A website created to practice basic html.
+A basic website created to practice html and css.

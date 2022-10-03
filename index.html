@@ -3,21 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Recipes Website</title>
+        <link rel="stylesheet" href="./styles.css">
     </head>
 
-    <body>
+    <body class="all-content">
         <h1>Food Recipes</h1> 
-        <ul>
-            <li><a href="./recipes/casserole.html">Casserole</a></li>
-            <li><a href="./recipes/meatballs.html">Meatballs</a></li>
-            <li><a href="./recipes/pasta.html">Pasta</a></li>
-        </ul>
+        <div class="recipe-content">
+            <div class="item">
+                <a href="./recipes/casserole.html"><img src="./images/casserole.jpg"></a>
+                <p>Casserole</p>
+            </div>
+            <div class="item">
+                <a href="./recipes/meatballs.html"><img src="./images/meatballs.jpeg"></a>
+                <p>Meatballs</p>
+            </div>
+            <div class="item">
+                <a href="./recipes/pasta.html"><img src="./images/pasta.jpg"></a>
+                <p>Pasta</p>
+            </div>
+        </div>
         <br>
         <div>
-            <h3>Welcome! please meet The Cook, the Thief, His Wife & Her Lover and
-                check out the food recipes from the above links.
-            </h3>
-            <img src="./images/cook.jpeg" alt="the cook the thief his wife and her lover">
+            <h2>Welcome! please meet The Cook, the Thief, His Wife & Her Lover and
+                check out the food recipes.
+            </h2>
+            <img  class="cook-image" src="./images/cook.jpeg" alt="the cook the thief his wife and her lover">
         </div>    
     </body>
 </html>

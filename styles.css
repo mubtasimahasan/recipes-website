@@ -1,0 +1,59 @@
+body {
+    background-color: #ffe1e1;
+    font-family: Garamond, serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    background-color:  #E1FFFF;
+}
+
+.cook-image {
+    width: 800px;
+    height: auto;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-image {
+    width: 500px;
+    height: auto;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all-content {
+    max-width: 960px;
+    margin: auto;
+}
+
+.recipe-content img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.recipe-content img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.recipe-content{
+    gap:40px;
+    display: flex;
+}
+
+.recipe-content .item{
+    image-resolution: 500px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    width:400px;
+    text-align: center;
+}
+
