@@ -30,30 +30,28 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
 }
 
-.recipe-content img {
+.recipe-container img {
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 5px;
     width: 150px;
     height: 150px;
 }
 
-.recipe-content img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.recipe-container img:hover {
+    box-shadow: 0 0 5px 5px #E1FFFF;
 }
 
-.recipe-content{
-    gap:40px;
+.recipe-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
-.recipe-content .item{
-    image-resolution: 500px;
+.recipe-container .item{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    gap:10px;
-    align-items: center;
-    width:400px;
-    text-align: center;
+    align-items: center;   
 }
 
